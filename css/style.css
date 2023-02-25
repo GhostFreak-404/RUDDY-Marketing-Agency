@@ -1,0 +1,114 @@
+/* =================================================================================== */
+
+* {
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  scroll-behavior: smooth;
+}
+
+main {
+  padding: 0 !important;
+}
+
+
+header {
+  height: 100svh !important;
+  height: 100vh;
+  background: url(../images/bg.jpg) no-repeat top center/cover;
+}
+
+
+/* =================================================================================== */
+
+.position {
+  bottom: 8vh !important;
+}
+
+a[href="#home"] img {
+  position: fixed;
+  bottom: -10vh;
+  right: 2vw;
+  z-index: 99999;
+}
+
+a[href="#home"]:hover img {
+  bottom: 10vh !important;
+}
+
+a[href="#home"]:focus img {
+  bottom: 8vh !important;
+}
+
+a[href="#home"] img {
+  width: 70px;
+  height: 70px;
+  background-color: #c5c5c5;
+  border-radius: 50%;
+}
+
+/* =================================================================================== */
+
+.sec2 .cover1 {
+  background: url(../images/about-pic2.jpg) no-repeat center/cover !important;
+  min-height: 295px;
+}
+
+.sec2 .cover2 {
+  background: url(../images/about-pic1.jpg) no-repeat center/cover !important;
+  min-height: 295px;
+}
+
+.sec2 .cover3 {
+  background: url(../images/about-pic3.jpg) no-repeat center/cover !important;
+  min-height: 295px;
+}
+
+/* =================================================================================== */
+
+.sec3 {
+  background: url(../images/process-bg.jpg) no-repeat center/cover !important;
+}
+
+/* ------------------------ */
+
+.sec3 div .d-1 {
+  background: url(../images/p-bg1.jpg) no-repeat center/cover !important;
+}
+
+.sec3 div .d-2 {
+  background: url(../images/p-bg2.jpg) no-repeat center/cover !important;
+}
+
+.sec3 div .d-3 {
+  background: url(../images/p-bg3.jpg) no-repeat center/cover !important;
+}
+
+.sec3 div .d-4 {
+  background: url(../images/p-bg4.jpg) no-repeat center/cover !important;
+}
+
+/* =================================================================================== */
+
+iframe {
+  height: 100% !important;
+}
+
+/* =================================================================================== */
+
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+}
+
+/* =================================================================================== */
+
+.card3 {
+  padding: 0px;
+  width: 98%;
+}
+
+/* =================================================================================== */
